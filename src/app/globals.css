@@ -1,0 +1,67 @@
+@import "tailwindcss";
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-geist-sans);
+  --font-mono: var(--font-geist-mono);
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+html {
+  scroll-behavior: smooth; /* haluskan scroll */
+  font-size: 16px; /* ukuran font dasar */
+  line-height: 1.5; /* jarak antar baris */
+  scroll-behavior: smooth;
+  overscroll-behavior-y: none; /* cegah bounce scroll vertikal */
+}
+
+/* pastikan html dan body sama2 gelap */
+html,
+body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  overflow-x: hidden; /* cegah geser horizontal */
+  overscroll-behavior: none; /* cegah bounce scroll */
+  background: var(--background);
+  color: var(--foreground);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Scrollbar untuk Chrome, Edge, Safari */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #0f1123; /* warna background */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #6b6b6b; /* warna bar */
+  border-radius: 20px;
+  border: 2px solid #0f1123;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #9f9f9f;
+}
+
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #6b6b6b #0f1123;
+}
+
