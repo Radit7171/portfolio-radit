@@ -37,7 +37,7 @@ export default function PortfolioPage() {
             transition={{ duration: 0.6 }}
             className="text-4xl font-bold text-center mb-4"
           >
-            Portfolio Projects
+            Portofolio Saya
           </motion.h2>
           <motion.p
             initial={{ opacity: 0 }}
@@ -45,8 +45,8 @@ export default function PortfolioPage() {
             transition={{ delay: 0.2 }}
             className="text-center text-gray-400 mb-12"
           >
-            Beberapa project yang pernah saya kerjakan. Klik card untuk melihat
-            demo di YouTube.
+            Jelajahi project-project yang telah saya kerjakan. Klik card untuk
+            melihat demo lengkapnya di YouTube.
           </motion.p>
 
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -108,7 +108,7 @@ export default function PortfolioPage() {
             transition={{ duration: 0.6 }}
             className="text-4xl font-bold mb-4"
           >
-            Hubungi Saya
+            Mari Berkolaborasi!
           </motion.h2>
 
           <motion.p
@@ -117,10 +117,9 @@ export default function PortfolioPage() {
             transition={{ delay: 0.2 }}
             className="text-gray-400 mb-10 leading-relaxed"
           >
-            Saya sedang mencari kesempatan kerja untuk menambah pengalaman di
-            industri ini. Jika kamu punya pertanyaan atau sekadar ingin menyapa,
-            jangan ragu untuk menghubungi saya. Saya akan berusaha membalas
-            secepat mungkin! 🚀
+            Saya selalu terbuka untuk diskusi dan kesempatan baru. Jika Anda
+            memiliki proyek atau sekadar ingin bertukar pikiran, silakan hubungi
+            saya. Saya akan dengan senang hati merespons!
           </motion.p>
 
           <motion.a

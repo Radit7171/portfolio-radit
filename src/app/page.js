@@ -44,10 +44,12 @@ export default function HomePage() {
 
         <RevealOnScroll delay={0.2}>
           <p className="text-base sm:text-lg md:text-xl text-gray-300 max-w-md sm:max-w-2xl mb-8 leading-relaxed">
-            Saya seorang{" "}
-            <span className="text-blue-400">Junior Web Developer</span> yang
-            fokus pada membangun website modern dengan desain menarik,
-            responsif, dan performa tinggi.
+            Tujuan saya sederhana: membangun{" "}
+            <span className="text-blue-400">
+              website yang tidak hanya bagus secara visual, tetapi juga
+              memberikan pengalaman yang lancar dan menyenangkan
+            </span>{" "}
+            bagi setiap pengunjungnya.
           </p>
         </RevealOnScroll>
 
@@ -77,23 +79,22 @@ export default function HomePage() {
         <div className="max-w-5xl mx-auto text-center">
           <RevealOnScroll>
             <h2 className="text-3xl sm:text-4xl font-bold mb-6 text-white">
-              Tentang Saya
+              Perkenalan Singkat
             </h2>
           </RevealOnScroll>
 
           <RevealOnScroll delay={0.2}>
             <p className="text-base sm:text-lg md:text-xl leading-relaxed text-gray-400 max-w-3xl mx-auto">
-              Saya adalah seorang{" "}
-              <span className="text-blue-400">Junior Web Developer </span>
-              dengan minat besar pada teknologi web modern. Fokus saya adalah
-              menciptakan website yang tidak hanya{" "}
-              <span className="text-blue-400">menarik secara visual</span>,
-              tetapi juga{" "}
+              Sebagai developer yang masih terus berkembang, passion saya adalah
+              mengubah ide menjadi kenyataan digital. Saya berusaha keras untuk
+              memastikan setiap website yang saya buat tidak hanya{" "}
+              <span className="text-blue-400">tampak modern</span>, tetapi juga
+              terasa{" "}
               <span className="text-blue-400">
-                responsif, cepat, dan ramah pengguna
-              </span>
-              . Saya senang belajar hal baru dan terus berkembang untuk menjadi
-              developer yang lebih baik.
+                lancar dan mudah bagi semua orang
+              </span>{" "}
+              yang mengunjunginya. Selalu ada teknologi baru untuk dikuasai, dan
+              itulah yang membuat saya terus tertantang.
             </p>
           </RevealOnScroll>
         </div>

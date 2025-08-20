@@ -7,10 +7,10 @@ export default function ContactPage() {
     <section className="py-20 px-6 bg-gray-900 text-gray-100 min-h-screen flex items-center">
       <div className="max-w-3xl mx-auto text-center">
         {/* Judul */}
-        <h2 className="text-3xl font-bold mb-6">Kontak Saya</h2>
+        <h2 className="text-3xl font-bold mb-6">Yuk, Terhubung!</h2>
         <p className="text-gray-400 mb-12">
-          Silakan hubungi saya melalui informasi berikut. Klik langsung untuk
-          terhubung! 📩
+          Jangan sungkan untuk menghubungi saya lewat salah satu cara di bawah
+          ini.
         </p>
 
         {/* Card Kontak */}
