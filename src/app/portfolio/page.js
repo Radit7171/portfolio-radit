@@ -124,7 +124,7 @@ export default function PortfolioPage() {
           </motion.p>
 
           <motion.a
-            href="mailto:raditjal717@email.com"
+            href="/contact"
             whileHover={{ scale: 1.05 }}
             className="inline-flex items-center gap-2 bg-blue-500 hover:bg-blue-700 text-white font-medium px-6 py-3 rounded-xl shadow-lg transition"
           >
